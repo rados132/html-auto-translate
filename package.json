@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:html-auto-translate.helloWorld"
+        "onCommand:html-auto-translate.test"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "html-auto-translate.helloWorld",
-				"title": "Hello World"
+				"command": "html-auto-translate.test",
+				"title": "Pokreni test"
 			}
 		]
 	},
